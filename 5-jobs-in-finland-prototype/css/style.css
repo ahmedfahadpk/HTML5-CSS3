@@ -1,0 +1,28 @@
+:root {
+    --primary-color: #ffffff;
+    --secondary-color: #002ea1;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.top {
+    height: 110px;
+    background: var(--primary-color);
+}
+
+.nav {
+    height: 50px;
+    background: var(--secondary-color);
+}
